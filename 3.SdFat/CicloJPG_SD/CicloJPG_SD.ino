@@ -3,8 +3,9 @@
 unsigned long start;
 
 File archivo;
-SdFat SD(2); const uint8_t SD_CS = PE15; 
+//SdFat SD(2); const uint8_t SD_CS = PE15; 
 //SdFat SD(2); const uint8_t SD_CS = PB12;  //F407, F103  SPI2
+SdFat SD(2);  const uint8_t SD_CS = PA11;   // F767
 
 void setup()
 {
