@@ -1,7 +1,7 @@
-//work on M4-DEMO board
+//work on M4-DEMO board and core generic of danieleff
 
-#include <SPI.h>
-#include "SdFat.h"
+//#include <SPI.h>
+//#include "SdFat.h"
 #include <GD23Z32.h>
 
 File archivo1;
