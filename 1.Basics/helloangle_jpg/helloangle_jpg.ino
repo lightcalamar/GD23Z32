@@ -1,3 +1,5 @@
+//Work only on STM32 F4 boards
+
 #include <GD23Z32.h>
 
 Bitmap Background, SaidHello;
