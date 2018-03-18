@@ -4,7 +4,8 @@
 #include <GD23Z32.h>
 
 #define MUSICFILE   "mesmeriz.ima"
-const uint8_t SD2_CS = PB12;   // chip select for sd2
+//const uint8_t SD2_CS = PB12;   // chip select for sd2
+const uint8_t SD2_CS = PA11;   // chip select for sd2
 
 char texto[40];
 int valor=0;
