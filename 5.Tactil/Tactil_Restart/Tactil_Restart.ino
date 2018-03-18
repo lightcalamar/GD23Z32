@@ -1,7 +1,8 @@
-#include <SPI.h>
 #include <GD23Z32.h>
 
 #define i2c_address 0x57  //EEPROM on DS3231
+//#define i2c_address 0x50  //EEPROM breakout
+
 AT24Cxx eep(i2c_address, 32);
 
 char Valor[20];
