@@ -1,10 +1,10 @@
-#include <SPI.h>
-#include "SdFat.h"
+//#include <SPI.h>
+//#include "SdFat.h"
 #include <GD23Z32.h>
 
 File archivo;
-SdFat SD2(2);  // SPI_2
-const uint8_t SD2_CS = PB12;   // chip select for sd2
+//SdFat SD2(2);  const uint8_t SD2_CS = PB12;   // SPI2 F103
+SdFat SD(2);  const uint8_t SD_CS = PA11;     // SPI2 F767
 
 void setup()
 {
