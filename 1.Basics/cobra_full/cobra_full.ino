@@ -6,7 +6,8 @@
 //SdFatSdioEX SD;
 //T36 SDIO
 
-SdFat SD(3);  const uint8_t SD_CS = PA15;   //F429, Core7XXI
+//SdFat SD(3);  const uint8_t SD_CS = PA15;   //F429, Core7XXI
+SdFat SD(2);  const uint8_t SD_CS = PA11;   // F767
 
 uint32_t ram;
 float FRAM, SRAM;
