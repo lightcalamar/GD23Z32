@@ -1,6 +1,7 @@
 //#include <SPI.h>
-
 //#include <GD2UE.h>
+//Work only on STM32 F4 boards
+
 #include <GD23Z32.h>
 
 #undef REPORT
