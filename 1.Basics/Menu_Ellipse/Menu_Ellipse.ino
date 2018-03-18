@@ -15,7 +15,8 @@ int IDJPG=0;
 File Filefondoarchivo;
 //Fondo de pantalla
 
-SdFat SD2(3);  const uint8_t SD2_CS = PA15;   // chip select for sd2
+//SdFat SD2(3);  const uint8_t SD2_CS = PA15;   // chip select for sd2
+SdFat SD2(2);  const uint8_t SD_CS = PA11;   // F767
 
 //                        0            1             2            3            4              5 //IDAsset
 char ChAsset[6][11]={"money.gd2", "Icons2.gd2", "Ricon1.gd2", "H1ico.gd2", "Radio1.gd2", "Radio2.gd2"};  File FileAsset;
