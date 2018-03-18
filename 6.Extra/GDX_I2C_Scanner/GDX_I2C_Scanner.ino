@@ -1,5 +1,6 @@
 #include <Wire.h>
-#include <SPI.h>
+//#include <SPI.h>
+#include <GD23Z32.h>
 
 void setup()
 {
