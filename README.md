@@ -1,13 +1,7 @@
-gd2-lib
-=======
+GD23Z32 library for STM32Fx
+===========================
 
-This is the source repository of the GD library - the software side of the Gameduino project. The installation library and instructions are at:
-
-http://gameduino.com/code
-
-To build the release library ``Gameduino2.zip`` run:
-
-    python publish.py
+Library for graphics GPU FT81x with MCU´s STM32Fx, Team FT81xmania, https://ft81xmania.com/comunidad/
 
 FAQ
 ---
@@ -31,9 +25,6 @@ After calling ``GD.begin()`` you can set the scanout registers for 800x480 like 
     GD.wr16(vc.REG_PCLK_POL, 0);
     GD.wr16(vc.REG_PCLK, 4);
 
-**How do I use GD with a 320x480 display?**
-
-There is a writeup here: http://excamera.com/sphinx/article-ili9488.html
 
 **How do I change the select pin assignments?**
 
